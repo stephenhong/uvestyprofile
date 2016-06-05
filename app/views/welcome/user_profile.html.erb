@@ -1,25 +1,5 @@
 <!DOCTYPE html>
-<!--
-Template Name: Metronic - Responsive Admin Dashboard Template build with Twitter Bootstrap 3.3.6
-Version: 4.5.6
-Author: KeenThemes
-Website: http://www.keenthemes.com/
-Contact: support@keenthemes.com
-Follow: www.twitter.com/keenthemes
-Dribbble: www.dribbble.com/keenthemes
-Like: www.facebook.com/keenthemes
-Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
-Renew Support: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
-License: You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
--->
-<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
-<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
-<!--[if !IE]><!-->
 <html lang="en">
-    <!--<![endif]-->
-    <!-- BEGIN HEAD -->
-
-
     <body class="page-container-bg-solid">
         <!-- BEGIN HEADER -->
 
@@ -55,7 +35,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                         <div class="portlet light profile-sidebar-portlet ">
                                             <!-- SIDEBAR USERPIC -->
                                             <div class="profile-userpic">
-                                                <img src="../assets/pages/media/profile/profile_user.jpg" class="img-responsive" alt=""> </div>
+                                                <img src="05.jpg" class="img-responsive" alt=""> </div>
                                             <!-- END SIDEBAR USERPIC -->
                                             <!-- SIDEBAR USER TITLE -->
                                             <div class="profile-usertitle">
@@ -66,15 +46,19 @@ License: You must have a valid license purchased only from themeforest(the above
                                             <div class="profile-usermenu">
                                                 <ul class="nav">
                                                     <li class="active">
-                                                        <a href="page_user_profile_1.html">
+                                                        <a href="user_profile.html">
                                                             <i class="icon-home"></i> Overview </a>
                                                     </li>
                                                     <li>
-                                                        <a href="page_user_profile_1_account.html">
+                                                        <a href="inbox.html">
+                                                            <i class="icon-home"></i> Inbox </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="account_settings.html">
                                                             <i class="icon-settings"></i> Account Settings </a>
                                                     </li>
                                                     <li>
-                                                        <a href="page_user_profile_1_help.html">
+                                                        <a href="help.html">
                                                             <i class="icon-info"></i> Help </a>
                                                     </li>
                                                 </ul>
@@ -107,52 +91,21 @@ License: You must have a valid license purchased only from themeforest(the above
                                     <!-- BEGIN PROFILE CONTENT -->
                                     <div class="profile-content">
                                         <div class="row">
-                                            <div class="col-md-6">
+                                            <div class="col-md-12 col-sm-12">
                                                 <!-- BEGIN PORTLET -->
                                                 <div class="portlet light ">
                                                     <div class="portlet-title">
                                                         <div class="caption caption-md">
                                                             <i class="icon-bar-chart theme-font hide"></i>
-                                                            <span class="caption-subject font-blue-madison bold uppercase">Upcoming Sessions</span>
+                                                            <span class="caption-subject font-blue-madison bold uppercase"> Upcoming Sessions </span>
                                                         </div>
-                                                        <div class="actions">
-                                                            <div class="btn-group btn-group-devided" data-toggle="buttons">
-                                                                <label class="btn btn-transparent grey-salsa btn-circle btn-sm active">
-                                                                    <input type="radio" name="options" class="toggle" id="option1">Today</label>
-                                                                <label class="btn btn-transparent grey-salsa btn-circle btn-sm">
-                                                                    <input type="radio" name="options" class="toggle" id="option2">Week</label>
-                                                                <label class="btn btn-transparent grey-salsa btn-circle btn-sm">
-                                                                    <input type="radio" name="options" class="toggle" id="option2">Month</label>
-                                                            </div>
-                                                        </div>
+                                                      <div class="btn-arrow-link pull-right">
+                                                                <a href="javascript:;"> View All </a>
+                                                      </div>
                                                     </div>
                                                     <div class="portlet-body">
-                                                        <div class="row number-stats margin-bottom-30">
                                                             <div class="col-md-6 col-sm-6 col-xs-6">
-                                                                <div class="stat-left">
-                                                                    <div class="stat-chart">
-                                                                        <!-- do not line break "sparkline_bar" div. sparkline chart has an issue when the container div has line break -->
-                                                                        <div id="sparkline_bar"></div>
-                                                                    </div>
-                                                                    <div class="stat-number">
-                                                                        <div class="title"> Total </div>
-                                                                        <div class="number"> 69 </div>
-                                                                    </div>
-                                                                </div>
                                                             </div>
-                                                            <div class="col-md-6 col-sm-6 col-xs-6">
-                                                                <div class="stat-right">
-                                                                    <div class="stat-chart">
-                                                                        <!-- do not line break "sparkline_bar" div. sparkline chart has an issue when the container div has line break -->
-                                                                        <div id="sparkline_bar2"></div>
-                                                                    </div>
-                                                                    <div class="stat-number">
-                                                                        <div class="title"> New </div>
-                                                                        <div class="number"> 7 </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
                                                         <div class="table-scrollable table-scrollable-borderless">
                                                             <table class="table table-hover table-light">
                                                                 <thead>
@@ -168,13 +121,52 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     <td class="fit">
                                                                         <img class="user-pic" src="../assets/pages/media/users/avatar4.jpg"> </td>
                                                                     <td>
-                                                                        <a href="javascript:;" class="primary-link">Name</a>
+                                                                        <a href="javascript:;" class="primary-link">Name 1</a>
                                                                     </td>
-                                                                    <td> 8/15/16 </td>
+                                                                    <td> 6/11/16 </td>
                                                                     <td> 5:00 PM </td>
-                                                                    <td> $15/hr </td>
+                                                                    <td> $17/hr </td>
                                                                     <td>
-                                                                        <span class="bold theme-font">80%</span>
+                                                                        <span class="bold theme-font">97%</span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="fit">
+                                                                        <img class="user-pic" src="../assets/pages/media/users/avatar4.jpg"> </td>
+                                                                    <td>
+                                                                        <a href="javascript:;" class="primary-link">Name 2</a>
+                                                                    </td>
+                                                                    <td> 6/18/16 </td>
+                                                                    <td> 2:00 PM </td>
+                                                                    <td> $18/hr </td>
+                                                                    <td>
+                                                                        <span class="bold theme-font">97%</span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="fit">
+                                                                        <img class="user-pic" src="../assets/pages/media/users/avatar4.jpg"> </td>
+                                                                    <td>
+                                                                        <a href="javascript:;" class="primary-link">Name 3</a>
+                                                                    </td>
+                                                                    <td> 6/30/16 </td>
+                                                                    <td> 7:00 PM </td>
+                                                                    <td> $20/hr </td>
+                                                                    <td>
+                                                                        <span class="bold theme-font">99%</span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="fit">
+                                                                        <img class="user-pic" src="../assets/pages/media/users/avatar4.jpg"> </td>
+                                                                    <td>
+                                                                        <a href="javascript:;" class="primary-link">Name 4</a>
+                                                                    </td>
+                                                                    <td> 7/15/16 </td>
+                                                                    <td> 5:00 PM </td>
+                                                                    <td> $18/hr </td>
+                                                                    <td>
+                                                                        <span class="bold theme-font">95%</span>
                                                                     </td>
                                                                 </tr>
                                                             </table>
@@ -183,46 +175,90 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 </div>
                                                 <!-- END PORTLET -->
                                             </div>
-                                            <div class="col-md-6">
+                                          <div class="col-md-12 col-sm-12">
                                                 <!-- BEGIN PORTLET -->
                                                 <div class="portlet light ">
-                                                    <div class="portlet-title tabbable-line">
+                                                    <div class="portlet-title">
                                                         <div class="caption caption-md">
-                                                            <i class="icon-globe theme-font hide"></i>
-                                                            <span class="caption-subject font-blue-madison bold uppercase">History</span>
+                                                            <i class="icon-bar-chart theme-font hide"></i>
+                                                            <span class="caption-subject font-blue-madison bold uppercase"> Past Sessions </span>
+                                                        </div>
+                                                      <div class="btn-arrow-link pull-right">
+                                                                <a href="javascript:;"> View All </a>
+                                                      </div>
+                                                    </div>
+                                                  <div class="portlet-body">
+                                                            <div class="col-md-6 col-sm-6 col-xs-6">
+                                                            </div>
+                                                        <div class="table-scrollable table-scrollable-borderless">
+                                                            <table class="table table-hover table-light">
+                                                                <thead>
+                                                                    <tr class="uppercase">
+                                                                        <th colspan="2"> Tutor </th>
+                                                                        <th> Date </th>
+                                                                        <th> Time </th>
+                                                                        <th> Fee </th>
+                                                                        <th> Rate </th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tr>
+                                                                    <td class="fit">
+                                                                        <img class="user-pic" src="../assets/pages/media/users/avatar4.jpg"> </td>
+                                                                    <td>
+                                                                        <a href="javascript:;" class="primary-link">Name 1</a>
+                                                                    </td>
+                                                                    <td> 6/3/16 </td>
+                                                                    <td> 3:00 PM </td>
+                                                                    <td> $20/hr </td>
+                                                                    <td>
+                                                                        <span class="bold theme-font">97%</span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="fit">
+                                                                        <img class="user-pic" src="../assets/pages/media/users/avatar4.jpg"> </td>
+                                                                    <td>
+                                                                        <a href="javascript:;" class="primary-link">Name 2</a>
+                                                                    </td>
+                                                                    <td> 5/28/16 </td>
+                                                                    <td> 9:00 PM </td>
+                                                                    <td> $18/hr </td>
+                                                                    <td>
+                                                                        <span class="bold theme-font">95%</span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="fit">
+                                                                        <img class="user-pic" src="../assets/pages/media/users/avatar4.jpg"> </td>
+                                                                    <td>
+                                                                        <a href="javascript:;" class="primary-link">Name 3</a>
+                                                                    </td>
+                                                                    <td> 5/19/16 </td>
+                                                                    <td> 3:00 PM </td>
+                                                                    <td> $20/hr </td>
+                                                                    <td>
+                                                                        <span class="bold theme-font">98%</span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="fit">
+                                                                        <img class="user-pic" src="../assets/pages/media/users/avatar4.jpg"> </td>
+                                                                    <td>
+                                                                        <a href="javascript:;" class="primary-link">Name 4</a>
+                                                                    </td>
+                                                                    <td> 5/5/16 </td>
+                                                                    <td> 8:00 PM </td>
+                                                                    <td> $18/hr </td>
+                                                                    <td>
+                                                                        <span class="bold theme-font">96%</span>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
                                                         </div>
                                                     </div>
-                                                    <div class="portlet-body">
-                                                        <!--BEGIN TABS-->
-                                                        <div class="tab-content">
-                                                            <div class="tab-pane active" id="tab_1_1">
-                                                                <div class="scroller" style="height: 320px;" data-always-visible="1" data-rail-visible1="0" data-handle-color="#D7DCE2">
-                                                                    <ul class="feeds">
-                                                                        <li>
-                                                                            <div class="col1">
-                                                                                <div class="cont">
-                                                                                    <div class="cont-col1">
-                                                                                        <div class="label label-sm label-success">
-                                                                                            <i class="fa fa-bell-o"></i>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="cont-col2">
-                                                                                        <div class="desc"> Your past sessions will be posted here. </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="col2">
-                                                                                <div class="date"> Time </div>
-                                                                            </div>
-                                                                        </li>
-                                                                  </ul>
-                                                                </div>
-                                                         </div>
-                                                        <!--END TABS-->
-                                                    </div>
-                                                </div>
-                                                <!-- END  -->
                                             </div>
+                                          </div>
+
                                         </div>
                                         </div>
                                     </div>
