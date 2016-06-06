@@ -11,6 +11,10 @@ Rails.application.routes.draw do
   get 'sidebar', to: 'welcome#sidebar'
   get 'inbox', to: 'welcome#inbox'
   get 'help', to: 'welcome#help'
+  get 'mentor_list', to: 'mentorlist#mentor_list'
+  get 'mentor_profile', to: 'mentorlist#mentor_profile'
+
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

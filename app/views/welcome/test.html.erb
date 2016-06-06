@@ -1,25 +1,3 @@
-<!DOCTYPE html>
-<!--
-Template Name: Metronic - Responsive Admin Dashboard Template build with Twitter Bootstrap 3.3.6
-Version: 4.5.6
-Author: KeenThemes
-Website: http://www.keenthemes.com/
-Contact: support@keenthemes.com
-Follow: www.twitter.com/keenthemes
-Dribbble: www.dribbble.com/keenthemes
-Like: www.facebook.com/keenthemes
-Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
-Renew Support: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
-License: You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
--->
-<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
-<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
-<!--[if !IE]><!-->
-<html lang="en">
-    <!--<![endif]-->
-    <!-- BEGIN HEAD -->
-
-    
 
     <body class="page-container-bg-solid">
         <!-- BEGIN HEADER -->
@@ -564,7 +542,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                     </li>
                                 </ul>
                             </li>
-                            <li class="menu-dropdown mega-menu-dropdown  mega-menu-full">
+                            <li class="menu-dropdown mega-menu-dropdown active mega-menu-full">
                                 <a href="javascript:;"> Components
                                     <span class="arrow"></span>
                                 </a>
@@ -577,7 +555,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         <li>
                                                             <h3>Components 1</h3>
                                                         </li>
-                                                        <li>
+                                                        <li class="active">
                                                             <a href="components_date_time_pickers.html"> Date & Time Pickers </a>
                                                         </li>
                                                         <li>
@@ -662,15 +640,15 @@ License: You must have a valid license purchased only from themeforest(the above
                                     </li>
                                 </ul>
                             </li>
-                            <li class="menu-dropdown classic-menu-dropdown active">
+                            <li class="menu-dropdown classic-menu-dropdown ">
                                 <a href="javascript:;"> More
                                     <span class="arrow"></span>
                                 </a>
                                 <ul class="dropdown-menu pull-left">
-                                    <li class="dropdown-submenu active">
-                                        <a href="javascript:;" class="nav-link nav-toggle active">
+                                    <li class="dropdown-submenu ">
+                                        <a href="javascript:;" class="nav-link nav-toggle ">
                                             <i class="icon-settings"></i> Form Stuff
-                                            <span class="arrow open"></span>
+                                            <span class="arrow"></span>
                                         </a>
                                         <ul class="dropdown-menu">
                                             <li class=" ">
@@ -704,7 +682,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                             <li class=" ">
                                                 <a href="form_wizard.html" class="nav-link "> Form Wizard </a>
                                             </li>
-                                            <li class=" active">
+                                            <li class=" ">
                                                 <a href="form_icheck.html" class="nav-link "> iCheck Controls </a>
                                             </li>
                                             <li class=" ">
@@ -1108,8 +1086,8 @@ License: You must have a valid license purchased only from themeforest(the above
                     <div class="container">
                         <!-- BEGIN PAGE TITLE -->
                         <div class="page-title">
-                            <h1>iCheck Controls
-                                <small>icheck controls</small>
+                            <h1>Date & Time Pickers
+                                <small>date, datetime and daterange pickers</small>
                             </h1>
                         </div>
                         <!-- END PAGE TITLE -->
@@ -1238,11 +1216,11 @@ License: You must have a valid license purchased only from themeforest(the above
                                 <i class="fa fa-circle"></i>
                             </li>
                             <li>
-                                <a href="#">More</a>
+                                <a href="#">Components</a>
                                 <i class="fa fa-circle"></i>
                             </li>
                             <li>
-                                <span>Form Stuff</span>
+                                <span>Date & Time Pickers</span>
                             </li>
                         </ul>
                         <!-- END PAGE BREADCRUMBS -->
@@ -1250,733 +1228,669 @@ License: You must have a valid license purchased only from themeforest(the above
                         <div class="page-content-inner">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <div class="note note-success">
-                                        <p> To use iCheck checkbox and radio controls just apply <code>icheck</code> class to any checkbox or radio input and set the control style and color
-                                            <br> via HTML attributes <code>data-checkbox="icheckbox_minimal-grey"</code> or <code>data-radio="iradio_flat-grey"</code> and Metronic will take care of the plugin initialization. </p>
-                                        <p> This plugins is not included with the core plugins so if you like to use it you just need to include following js and css files on your page:
-                                            <br>
-                                            <br> <code>../../assets/global/plugins/icheck/skins/all.css</code>
-                                            <br> <code>../../assets/global/plugins/icheck/icheck.min.js</code> </p>
-                                        <p> For more info please chech the plugin's official documentation
-                                            <a href="http://fronteed.com/iCheck/" target="_blank">http://fronteed.com/iCheck/</a>
-                                        </p>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="portlet light ">
-                                                <div class="portlet-title tabbable-line">
-                                                    <div class="caption">
-                                                        <i class="icon-globe font-green"></i>
-                                                        <span class="caption-subject font-green bold uppercase">Default Form Layout</span>
-                                                    </div>
-                                                    <ul class="nav nav-tabs">
-                                                        <li class="active">
-                                                            <a href="#portlet_tab_1_1" data-toggle="tab"> Minimal </a>
+                                    <!-- BEGIN PORTLET-->
+                                    <div class="portlet light form-fit ">
+                                        <div class="portlet-title">
+                                            <div class="caption">
+                                                <i class="icon-pin font-red"></i>
+                                                <span class="caption-subject font-red sbold uppercase">Date Pickers</span>
+                                            </div>
+                                            <div class="actions">
+                                                <div class="btn-group">
+                                                    <a class="btn red btn-outline btn-circle btn-sm uppercase sbold" href="javascript:;" data-toggle="dropdown" data-hover="dropdown" data-close-others="true"> Actions
+                                                        <i class="fa fa-angle-down"></i>
+                                                    </a>
+                                                    <ul class="dropdown-menu pull-right">
+                                                        <li>
+                                                            <a href="javascript:;"> Option 1</a>
+                                                        </li>
+                                                        <li class="divider"> </li>
+                                                        <li>
+                                                            <a href="javascript:;">Option 2</a>
                                                         </li>
                                                         <li>
-                                                            <a href="#portlet_tab_1_2" data-toggle="tab"> Square </a>
+                                                            <a href="javascript:;">Option 3</a>
                                                         </li>
                                                         <li>
-                                                            <a href="#portlet_tab_1_3" data-toggle="tab"> Flat </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#portlet_tab_1_4" data-toggle="tab"> Line </a>
+                                                            <a href="javascript:;">Option 4</a>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                                <div class="portlet-body form">
-                                                    <div class="tab-content">
-                                                        <div class="tab-pane active" id="portlet_tab_1_1">
-                                                            <div class="skin skin-minimal">
-                                                                <form role="form">
-                                                                    <div class="form-body">
-                                                                        <div class="form-group">
-                                                                            <label>Colors Schemes</label>
-                                                                            <div class="input-group">
-                                                                                <ul class="icheck-colors">
-                                                                                    <li> </li>
-                                                                                    <li class="red"> </li>
-                                                                                    <li class="green"> </li>
-                                                                                    <li class="blue"> </li>
-                                                                                    <li class="aero"> </li>
-                                                                                    <li class="grey active"> </li>
-                                                                                    <li class="orange"> </li>
-                                                                                    <li class="pink"> </li>
-                                                                                    <li class="purple"> </li>
-                                                                                </ul>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="form-group">
-                                                                            <label>Checkbox List</label>
-                                                                            <div class="input-group">
-                                                                                <div class="icheck-list">
-                                                                                    <label>
-                                                                                        <input type="checkbox" class="icheck"> Checkbox 1 </label>
-                                                                                    <label>
-                                                                                        <input type="checkbox" checked class="icheck"> Checkbox 2 </label>
-                                                                                    <label>
-                                                                                        <input type="checkbox" class="icheck"> Checkbox 3 </label>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="form-group">
-                                                                            <label>Inline Checkboxes</label>
-                                                                            <div class="input-group">
-                                                                                <div class="icheck-inline">
-                                                                                    <label>
-                                                                                        <input type="checkbox" class="icheck"> Checkbox 1 </label>
-                                                                                    <label>
-                                                                                        <input type="checkbox" checked class="icheck"> Checkbox 2 </label>
-                                                                                    <label>
-                                                                                        <input type="checkbox" class="icheck"> Checkbox 3 </label>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="form-group">
-                                                                            <label>Radio List</label>
-                                                                            <div class="input-group">
-                                                                                <div class="icheck-list">
-                                                                                    <label>
-                                                                                        <input type="radio" name="radio1" class="icheck"> Radio Button 1 </label>
-                                                                                    <label>
-                                                                                        <input type="radio" name="radio1" checked class="icheck"> Radio Button 2 </label>
-                                                                                    <label>
-                                                                                        <input type="radio" name="radio1" class="icheck"> Radio Button 3 </label>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="form-group">
-                                                                            <label>Inline Radios</label>
-                                                                            <div class="input-group">
-                                                                                <div class="icheck-inline">
-                                                                                    <label>
-                                                                                        <input type="radio" name="radio2" class="icheck"> Radio Button 1 </label>
-                                                                                    <label>
-                                                                                        <input type="radio" name="radio2" checked class="icheck"> Radio Button 2 </label>
-                                                                                    <label>
-                                                                                        <input type="radio" name="radio2" class="icheck"> Radio Button 3 </label>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="form-actions">
-                                                                        <button type="submit" class="btn green">Submit</button>
-                                                                        <button type="button" class="btn default">Cancel</button>
-                                                                    </div>
-                                                                </form>
-                                                            </div>
+                                            </div>
+                                        </div>
+                                        <div class="portlet-body form">
+                                            <!-- BEGIN FORM-->
+                                            <form action="#" class="form-horizontal form-bordered">
+                                                <div class="form-body">
+                                                    <div class="form-group">
+                                                        <label class="control-label col-md-3">Default Datepicker</label>
+                                                        <div class="col-md-3">
+                                                            <input class="form-control form-control-inline input-medium date-picker" size="16" type="text" value="" />
+                                                            <span class="help-block"> Select date </span>
                                                         </div>
-                                                        <div class="tab-pane" id="portlet_tab_1_2">
-                                                            <div class="skin skin-square">
-                                                                <form role="form">
-                                                                    <div class="form-body">
-                                                                        <div class="form-group">
-                                                                            <label>Colors Schemes</label>
-                                                                            <div class="input-group">
-                                                                                <ul class="icheck-colors">
-                                                                                    <li> </li>
-                                                                                    <li class="red"> </li>
-                                                                                    <li class="green"> </li>
-                                                                                    <li class="blue"> </li>
-                                                                                    <li class="aero"> </li>
-                                                                                    <li class="grey active"> </li>
-                                                                                    <li class="orange"> </li>
-                                                                                    <li class="pink"> </li>
-                                                                                    <li class="purple"> </li>
-                                                                                </ul>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="form-group">
-                                                                            <label>Checkbox List</label>
-                                                                            <div class="input-group">
-                                                                                <div class="icheck-list">
-                                                                                    <label>
-                                                                                        <input type="checkbox" class="icheck" data-checkbox="icheckbox_square-grey"> Checkbox 1 </label>
-                                                                                    <label>
-                                                                                        <input type="checkbox" checked class="icheck" data-checkbox="icheckbox_square-grey"> Checkbox 2 </label>
-                                                                                    <label>
-                                                                                        <input type="checkbox" class="icheck" data-checkbox="icheckbox_square-grey"> Checkbox 3 </label>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="form-group">
-                                                                            <label>Inline Checkboxes</label>
-                                                                            <div class="input-group">
-                                                                                <div class="icheck-inline">
-                                                                                    <label>
-                                                                                        <input type="checkbox" class="icheck" data-checkbox="icheckbox_square-grey"> Checkbox 1 </label>
-                                                                                    <label>
-                                                                                        <input type="checkbox" checked class="icheck" data-checkbox="icheckbox_square-grey"> Checkbox 2 </label>
-                                                                                    <label>
-                                                                                        <input type="checkbox" class="icheck" data-checkbox="icheckbox_square-grey"> Checkbox 3 </label>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="form-group">
-                                                                            <label>Radio List</label>
-                                                                            <div class="input-group">
-                                                                                <div class="icheck-list">
-                                                                                    <label>
-                                                                                        <input type="radio" name="radio1" class="icheck" data-radio="iradio_square-grey"> Radio Button 1 </label>
-                                                                                    <label>
-                                                                                        <input type="radio" name="radio1" checked class="icheck" data-radio="iradio_square-grey"> Radio Button 2 </label>
-                                                                                    <label>
-                                                                                        <input type="radio" name="radio1" class="icheck" data-radio="iradio_square-grey"> Radio Button 3 </label>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="form-group">
-                                                                            <label>Inline Radios</label>
-                                                                            <div class="input-group">
-                                                                                <div class="icheck-inline">
-                                                                                    <label>
-                                                                                        <input type="radio" name="radio2" class="icheck" data-radio="iradio_square-grey"> Radio Button 1 </label>
-                                                                                    <label>
-                                                                                        <input type="radio" name="radio2" checked class="icheck" data-radio="iradio_square-grey"> Radio Button 2 </label>
-                                                                                    <label>
-                                                                                        <input type="radio" name="radio2" class="icheck" data-radio="iradio_square-grey"> Radio Button 3 </label>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="form-actions">
-                                                                        <button type="submit" class="btn red">Submit</button>
-                                                                        <button type="button" class="btn default">Cancel</button>
-                                                                    </div>
-                                                                </form>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="control-label col-md-3">Disable Past Dates</label>
+                                                        <div class="col-md-3">
+                                                            <div class="input-group input-medium date date-picker" data-date-format="dd-mm-yyyy" data-date-start-date="+0d">
+                                                                <input type="text" class="form-control" readonly>
+                                                                <span class="input-group-btn">
+                                                                    <button class="btn default" type="button">
+                                                                        <i class="fa fa-calendar"></i>
+                                                                    </button>
+                                                                </span>
                                                             </div>
+                                                            <!-- /input-group -->
+                                                            <span class="help-block"> Select date </span>
                                                         </div>
-                                                        <div class="tab-pane" id="portlet_tab_1_3">
-                                                            <div class="skin skin-flat">
-                                                                <form role="form">
-                                                                    <div class="form-body">
-                                                                        <div class="form-group">
-                                                                            <label>Colors Schemes</label>
-                                                                            <div class="input-group">
-                                                                                <ul class="icheck-colors">
-                                                                                    <li> </li>
-                                                                                    <li class="red"> </li>
-                                                                                    <li class="green"> </li>
-                                                                                    <li class="blue"> </li>
-                                                                                    <li class="aero"> </li>
-                                                                                    <li class="grey active"> </li>
-                                                                                    <li class="orange"> </li>
-                                                                                    <li class="pink"> </li>
-                                                                                    <li class="purple"> </li>
-                                                                                </ul>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="form-group">
-                                                                            <label>Checkbox List</label>
-                                                                            <div class="input-group">
-                                                                                <div class="icheck-list">
-                                                                                    <label>
-                                                                                        <input type="checkbox" class="icheck" data-checkbox="icheckbox_flat-grey"> Checkbox 1 </label>
-                                                                                    <label>
-                                                                                        <input type="checkbox" checked class="icheck" data-checkbox="icheckbox_flat-grey"> Checkbox 2 </label>
-                                                                                    <label>
-                                                                                        <input type="checkbox" class="icheck" data-checkbox="icheckbox_flat-grey"> Checkbox 3 </label>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="form-group">
-                                                                            <label>Inline Checkboxes</label>
-                                                                            <div class="input-group">
-                                                                                <div class="icheck-inline">
-                                                                                    <label>
-                                                                                        <input type="checkbox" class="icheck" data-checkbox="icheckbox_flat-grey"> Checkbox 1 </label>
-                                                                                    <label>
-                                                                                        <input type="checkbox" checked class="icheck" data-checkbox="icheckbox_flat-grey"> Checkbox 2 </label>
-                                                                                    <label>
-                                                                                        <input type="checkbox" class="icheck" data-checkbox="icheckbox_flat-grey"> Checkbox 3 </label>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="form-group">
-                                                                            <label>Radio List</label>
-                                                                            <div class="input-group">
-                                                                                <div class="icheck-list">
-                                                                                    <label>
-                                                                                        <input type="radio" name="radio1" class="icheck" data-radio="iradio_flat-grey"> Radio Button 1 </label>
-                                                                                    <label>
-                                                                                        <input type="radio" name="radio1" checked class="icheck" data-radio="iradio_flat-grey"> Radio Button 2 </label>
-                                                                                    <label>
-                                                                                        <input type="radio" name="radio1" class="icheck" data-radio="iradio_flat-grey"> Radio Button 3 </label>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="form-group">
-                                                                            <label>Inline Radios</label>
-                                                                            <div class="input-group">
-                                                                                <div class="icheck-inline">
-                                                                                    <label>
-                                                                                        <input type="radio" name="radio2" class="icheck" data-radio="iradio_flat-grey"> Radio Button 1 </label>
-                                                                                    <label>
-                                                                                        <input type="radio" name="radio2" checked class="icheck" data-radio="iradio_flat-grey"> Radio Button 2 </label>
-                                                                                    <label>
-                                                                                        <input type="radio" name="radio2" class="icheck" data-radio="iradio_flat-grey"> Radio Button 3 </label>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="form-actions">
-                                                                        <button type="submit" class="btn blue">Submit</button>
-                                                                        <button type="button" class="btn default">Cancel</button>
-                                                                    </div>
-                                                                </form>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="control-label col-md-3">Start With Years</label>
+                                                        <div class="col-md-3">
+                                                            <div class="input-group input-medium date date-picker" data-date="12-02-2012" data-date-format="dd-mm-yyyy" data-date-viewmode="years">
+                                                                <input type="text" class="form-control" readonly>
+                                                                <span class="input-group-btn">
+                                                                    <button class="btn default" type="button">
+                                                                        <i class="fa fa-calendar"></i>
+                                                                    </button>
+                                                                </span>
                                                             </div>
+                                                            <!-- /input-group -->
+                                                            <span class="help-block"> Select date </span>
                                                         </div>
-                                                        <div class="tab-pane" id="portlet_tab_1_4">
-                                                            <div class="skin skin-line">
-                                                                <form role="form">
-                                                                    <div class="form-body">
-                                                                        <div class="form-group">
-                                                                            <label>Colors Schemes</label>
-                                                                            <div class="input-group">
-                                                                                <ul class="icheck-colors">
-                                                                                    <li> </li>
-                                                                                    <li class="red"> </li>
-                                                                                    <li class="green"> </li>
-                                                                                    <li class="blue"> </li>
-                                                                                    <li class="aero"> </li>
-                                                                                    <li class="grey active"> </li>
-                                                                                    <li class="orange"> </li>
-                                                                                    <li class="pink"> </li>
-                                                                                    <li class="purple"> </li>
-                                                                                </ul>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="form-group">
-                                                                            <label>Checkbox List</label>
-                                                                            <div class="input-group">
-                                                                                <div class="icheck-list">
-                                                                                    <label>
-                                                                                        <input type="checkbox" class="icheck" data-checkbox="icheckbox_line-grey" data-label="Checkbox 1"> </label>
-                                                                                    <label>
-                                                                                        <input type="checkbox" checked class="icheck" data-checkbox="icheckbox_line-grey" data-label="Checkbox 2"> </label>
-                                                                                    <label>
-                                                                                        <input type="checkbox" class="icheck" data-checkbox="icheckbox_line-grey" data-label="Checkbox 3"> </label>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="form-group">
-                                                                            <label>Inline Checkboxes</label>
-                                                                            <div class="input-group">
-                                                                                <div class="icheck-inline">
-                                                                                    <label>
-                                                                                        <input type="checkbox" class="icheck" data-checkbox="icheckbox_line-grey" data-label="Checkbox 1"> </label>
-                                                                                    <label>
-                                                                                        <input type="checkbox" checked class="icheck" data-checkbox="icheckbox_line-grey" data-label="Checkbox 2"> </label>
-                                                                                    <label>
-                                                                                        <input type="checkbox" class="icheck" data-checkbox="icheckbox_line-grey" data-label="Checkbox 3"> </label>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="form-group">
-                                                                            <label>Radio List</label>
-                                                                            <div class="input-group">
-                                                                                <div class="icheck-list">
-                                                                                    <label>
-                                                                                        <input type="radio" name="radio1" class="icheck" data-radio="iradio_line-grey" data-label="Radio Button 1 "> </label>
-                                                                                    <label>
-                                                                                        <input type="radio" name="radio1" checked class="icheck" data-radio="iradio_line-grey" data-label="Radio Button 2"> </label>
-                                                                                    <label>
-                                                                                        <input type="radio" name="radio1" class="icheck" data-radio="iradio_line-grey" data-label="Radio Button 3"> </label>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="form-group">
-                                                                            <label>Inline Radios</label>
-                                                                            <div class="input-group">
-                                                                                <div class="icheck-inline">
-                                                                                    <label>
-                                                                                        <input type="radio" name="radio2" class="icheck" data-radio="iradio_line-grey" data-label="Radio Button 1"> </label>
-                                                                                    <label>
-                                                                                        <input type="radio" name="radio2" checked class="icheck" data-radio="iradio_line-grey" data-label="Radio Button 2"> </label>
-                                                                                    <label>
-                                                                                        <input type="radio" name="radio2" class="icheck" data-radio="iradio_line-grey" data-label="Radio Button 3"> </label>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="form-actions">
-                                                                        <button type="submit" class="btn blue">Submit</button>
-                                                                        <button type="button" class="btn default">Cancel</button>
-                                                                    </div>
-                                                                </form>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="control-label col-md-3">Months Only</label>
+                                                        <div class="col-md-3">
+                                                            <div class="input-group input-medium date date-picker" data-date="10/2012" data-date-format="mm/yyyy" data-date-viewmode="years" data-date-minviewmode="months">
+                                                                <input type="text" class="form-control" readonly>
+                                                                <span class="input-group-btn">
+                                                                    <button class="btn default" type="button">
+                                                                        <i class="fa fa-calendar"></i>
+                                                                    </button>
+                                                                </span>
                                                             </div>
+                                                            <!-- /input-group -->
+                                                            <span class="help-block"> Select month only </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="control-label col-md-3">Date Range</label>
+                                                        <div class="col-md-4">
+                                                            <div class="input-group input-large date-picker input-daterange" data-date="10/11/2012" data-date-format="mm/dd/yyyy">
+                                                                <input type="text" class="form-control" name="from">
+                                                                <span class="input-group-addon"> to </span>
+                                                                <input type="text" class="form-control" name="to"> </div>
+                                                            <!-- /input-group -->
+                                                            <span class="help-block"> Select date range </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="control-label col-md-3">Inline</label>
+                                                        <div class="col-md-3">
+                                                            <div class="date-picker" data-date-format="mm/dd/yyyy"> </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group last">
+                                                        <label class="control-label col-md-3"></label>
+                                                        <div class="col-md-3">
+                                                            <a class="btn green btn-outline sbold uppercase" href="#form_modal2" data-toggle="modal"> View Datepicker in modal
+                                                                <i class="fa fa-share"></i>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                            <div id="form_modal2" class="modal fade" role="dialog" aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                                                            <h4 class="modal-title">Datepickers In Modal</h4>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <form action="#" class="form-horizontal">
+                                                                <div class="form-group">
+                                                                    <label class="control-label col-md-4">Default Datepicker</label>
+                                                                    <div class="col-md-8">
+                                                                        <input class="form-control input-medium date-picker" size="16" type="text" value="" /> </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label class="control-label col-md-4">Disable Past Dates</label>
+                                                                    <div class="col-md-8">
+                                                                        <div class="input-group input-medium date date-picker" data-date-format="dd-mm-yyyy" data-date-start-date="+0d">
+                                                                            <input type="text" class="form-control" readonly>
+                                                                            <span class="input-group-btn">
+                                                                                <button class="btn default" type="button">
+                                                                                    <i class="fa fa-calendar"></i>
+                                                                                </button>
+                                                                            </span>
+                                                                        </div>
+                                                                        <!-- /input-group -->
+                                                                        <span class="help-block"> Select date </span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label class="control-label col-md-4">Start With Years</label>
+                                                                    <div class="col-md-8">
+                                                                        <div class="input-group input-medium date date-picker" data-date="12-02-2012" data-date-format="dd-mm-yyyy" data-date-viewmode="years">
+                                                                            <input type="text" class="form-control" readonly>
+                                                                            <span class="input-group-btn">
+                                                                                <button class="btn default" type="button">
+                                                                                    <i class="fa fa-calendar"></i>
+                                                                                </button>
+                                                                            </span>
+                                                                        </div>
+                                                                        <!-- /input-group -->
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label class="control-label col-md-4">Months Only</label>
+                                                                    <div class="col-md-8">
+                                                                        <div class="input-group input-medium date date-picker" data-date="10/2012" data-date-format="mm/yyyy" data-date-viewmode="years" data-date-minviewmode="months">
+                                                                            <input type="text" class="form-control" readonly>
+                                                                            <span class="input-group-btn">
+                                                                                <button class="btn default" type="button">
+                                                                                    <i class="fa fa-calendar"></i>
+                                                                                </button>
+                                                                            </span>
+                                                                        </div>
+                                                                        <!-- /input-group -->
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label class="control-label col-md-4">Date Range</label>
+                                                                    <div class="col-md-8">
+                                                                        <div class="input-group input-medium date-picker input-daterange" data-date="10/11/2012" data-date-format="mm/dd/yyyy">
+                                                                            <input type="text" class="form-control" name="from">
+                                                                            <span class="input-group-addon"> to </span>
+                                                                            <input type="text" class="form-control" name="to"> </div>
+                                                                        <!-- /input-group -->
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button class="btn dark btn-outline" data-dismiss="modal" aria-hidden="true">Close</button>
+                                                            <button class="btn green" data-dismiss="modal">Save changes</button>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
+                                            <!-- END FORM-->
                                         </div>
-                                        <div class="col-md-6">
-                                            <div class="portlet light ">
-                                                <div class="portlet-title tabbable-line">
-                                                    <div class="caption">
-                                                        <i class="icon-globe font-red"></i>
-                                                        <span class="caption-subject font-red bold uppercase">Horizontal Form Layout</span>
-                                                    </div>
-                                                    <ul class="nav nav-tabs">
-                                                        <li class="active">
-                                                            <a href="#portlet_tab_2_1" data-toggle="tab"> Minimal </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#portlet_tab_2_2" data-toggle="tab"> Square </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#portlet_tab_2_3" data-toggle="tab"> Flat </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#portlet_tab_2_4" data-toggle="tab"> Line </a>
-                                                        </li>
-                                                    </ul>
+                                    </div>
+                                    <!-- END PORTLET-->
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <!-- BEGIN PORTLET-->
+                                    <div class="portlet light form-fit ">
+                                        <div class="portlet-title">
+                                            <div class="caption">
+                                                <i class="icon-pin font-blue"></i>
+                                                <span class="caption-subject font-blue sbold uppercase">Datetime Pickers</span>
+                                            </div>
+                                            <div class="actions">
+                                                <div class="btn-group btn-group-devided" data-toggle="buttons">
+                                                    <label class="btn btn-outline grey-salsa btn-circle btn-sm active">
+                                                        <input type="radio" name="options" class="toggle" id="option1">New</label>
+                                                    <label class="btn btn-outline grey-salsa btn-circle btn-sm">
+                                                        <input type="radio" name="options" class="toggle" id="option2">Returning</label>
                                                 </div>
-                                                <div class="portlet-body form">
-                                                    <div class="tab-content">
-                                                        <div class="tab-pane active" id="portlet_tab_2_1">
-                                                            <div class="skin skin-minimal">
-                                                                <form class="form-horizontal" role="form">
-                                                                    <div class="form-body">
-                                                                        <div class="form-group">
-                                                                            <label class="col-md-4 control-label"> Colors Schemes </label>
-                                                                            <div class="col-md-8">
-                                                                                <div class="input-group">
-                                                                                    <ul class="icheck-colors">
-                                                                                        <li> </li>
-                                                                                        <li class="red"> </li>
-                                                                                        <li class="green"> </li>
-                                                                                        <li class="blue"> </li>
-                                                                                        <li class="aero"> </li>
-                                                                                        <li class="grey active"> </li>
-                                                                                        <li class="orange"> </li>
-                                                                                        <li class="pink"> </li>
-                                                                                        <li class="purple"> </li>
-                                                                                    </ul>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="form-group">
-                                                                            <label class="col-md-4 control-label"> Checkbox List </label>
-                                                                            <div class="col-md-8">
-                                                                                <div class="input-group">
-                                                                                    <div class="icheck-list">
-                                                                                        <label>
-                                                                                            <input type="checkbox" class="icheck"> Checkbox 1 </label>
-                                                                                        <label>
-                                                                                            <input type="checkbox" checked class="icheck"> Checkbox 2 </label>
-                                                                                        <label>
-                                                                                            <input type="checkbox" class="icheck"> Checkbox 3 </label>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="form-group">
-                                                                            <label class="col-md-4 control-label">Inline</label>
-                                                                            <div class="col-md-8">
-                                                                                <div class="input-group">
-                                                                                    <div class="icheck-inline">
-                                                                                        <label>
-                                                                                            <input type="checkbox" class="icheck"> Checkbox 1 </label>
-                                                                                        <label>
-                                                                                            <input type="checkbox" checked class="icheck"> Checkbox 2 </label>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="form-group">
-                                                                            <label class="col-md-4 control-label">Radio List</label>
-                                                                            <div class="col-md-8">
-                                                                                <div class="input-group">
-                                                                                    <div class="icheck-list">
-                                                                                        <label>
-                                                                                            <input type="radio" name="radio1" class="icheck"> Radio Button 1 </label>
-                                                                                        <label>
-                                                                                            <input type="radio" name="radio1" checked class="icheck"> Radio Button 2 </label>
-                                                                                        <label>
-                                                                                            <input type="radio" name="radio1" class="icheck"> Radio Button 3 </label>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="form-group">
-                                                                            <label class="col-md-4 control-label">Inline Radios</label>
-                                                                            <div class="col-md-8">
-                                                                                <div class="input-group">
-                                                                                    <div class="icheck-inline">
-                                                                                        <label>
-                                                                                            <input type="radio" name="radio2" class="icheck"> Radio Button 1 </label>
-                                                                                        <label>
-                                                                                            <input type="radio" name="radio2" checked class="icheck"> Radio Button 2 </label>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="form-actions">
-                                                                        <button type="submit" class="btn red">Submit</button>
-                                                                        <button type="button" class="btn default">Cancel</button>
-                                                                    </div>
-                                                                </form>
+                                            </div>
+                                        </div>
+                                        <div class="portlet-body form">
+                                            <!-- BEGIN FORM-->
+                                            <form action="#" class="form-horizontal form-bordered">
+                                                <div class="form-body">
+                                                    <div class="form-group">
+                                                        <label class="control-label col-md-3">Default Datetimepicker</label>
+                                                        <div class="col-md-4">
+                                                            <div class="input-group date form_datetime">
+                                                                <input type="text" size="16" readonly class="form-control">
+                                                                <span class="input-group-btn">
+                                                                    <button class="btn default date-set" type="button">
+                                                                        <i class="fa fa-calendar"></i>
+                                                                    </button>
+                                                                </span>
                                                             </div>
                                                         </div>
-                                                        <div class="tab-pane" id="portlet_tab_2_2">
-                                                            <div class="skin skin-square">
-                                                                <form class="form-horizontal" role="form">
-                                                                    <div class="form-body">
-                                                                        <div class="form-group">
-                                                                            <label class="col-md-4 control-label"> Colors Schemes </label>
-                                                                            <div class="col-md-8">
-                                                                                <div class="input-group">
-                                                                                    <ul class="icheck-colors">
-                                                                                        <li> </li>
-                                                                                        <li class="red"> </li>
-                                                                                        <li class="green"> </li>
-                                                                                        <li class="blue"> </li>
-                                                                                        <li class="aero"> </li>
-                                                                                        <li class="grey active"> </li>
-                                                                                        <li class="orange"> </li>
-                                                                                        <li class="pink"> </li>
-                                                                                        <li class="purple"> </li>
-                                                                                    </ul>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="form-group">
-                                                                            <label class="col-md-4 control-label"> Checkbox List </label>
-                                                                            <div class="col-md-8">
-                                                                                <div class="input-group">
-                                                                                    <div class="icheck-list">
-                                                                                        <label>
-                                                                                            <input type="checkbox" class="icheck" data-checkbox="icheckbox_square-grey"> Checkbox 1 </label>
-                                                                                        <label>
-                                                                                            <input type="checkbox" checked class="icheck" data-checkbox="icheckbox_square-grey"> Checkbox 2 </label>
-                                                                                        <label>
-                                                                                            <input type="checkbox" class="icheck" data-checkbox="icheckbox_square-grey"> Checkbox 3 </label>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="form-group">
-                                                                            <label class="col-md-4 control-label">Inline</label>
-                                                                            <div class="col-md-8">
-                                                                                <div class="input-group">
-                                                                                    <div class="icheck-inline">
-                                                                                        <label>
-                                                                                            <input type="checkbox" class="icheck" data-checkbox="icheckbox_square-grey"> Checkbox 1 </label>
-                                                                                        <label>
-                                                                                            <input type="checkbox" checked class="icheck" data-checkbox="icheckbox_square-grey"> Checkbox 2 </label>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="form-group">
-                                                                            <label class="col-md-4 control-label">Radio List</label>
-                                                                            <div class="col-md-8">
-                                                                                <div class="input-group">
-                                                                                    <div class="icheck-list">
-                                                                                        <label>
-                                                                                            <input type="radio" name="radio1" class="icheck" data-radio="iradio_square-grey"> Radio Button 1 </label>
-                                                                                        <label>
-                                                                                            <input type="radio" name="radio1" checked class="icheck" data-radio="iradio_square-grey"> Radio Button 2 </label>
-                                                                                        <label>
-                                                                                            <input type="radio" name="radio1" class="icheck" data-radio="iradio_square-grey"> Radio Button 3 </label>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="form-group">
-                                                                            <label class="col-md-4 control-label">Inline Radios</label>
-                                                                            <div class="col-md-8">
-                                                                                <div class="input-group">
-                                                                                    <div class="icheck-inline">
-                                                                                        <label>
-                                                                                            <input type="radio" name="radio2" class="icheck" data-radio="iradio_square-grey"> Radio Button 1 </label>
-                                                                                        <label>
-                                                                                            <input type="radio" name="radio2" checked class="icheck" data-radio="iradio_square-grey"> Radio Button 2 </label>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="form-actions">
-                                                                        <button type="submit" class="btn green">Submit</button>
-                                                                        <button type="button" class="btn default">Cancel</button>
-                                                                    </div>
-                                                                </form>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="control-label col-md-3">Advance Datetimepicker</label>
+                                                        <div class="col-md-4">
+                                                            <div class="input-group date form_datetime" data-date="2012-12-21T15:25:00Z">
+                                                                <input type="text" size="16" readonly class="form-control">
+                                                                <span class="input-group-btn">
+                                                                    <button class="btn default date-reset" type="button">
+                                                                        <i class="fa fa-times"></i>
+                                                                    </button>
+                                                                    <button class="btn default date-set" type="button">
+                                                                        <i class="fa fa-calendar"></i>
+                                                                    </button>
+                                                                </span>
                                                             </div>
                                                         </div>
-                                                        <div class="tab-pane" id="portlet_tab_2_3">
-                                                            <div class="skin skin-flat">
-                                                                <form class="form-horizontal" role="form">
-                                                                    <div class="form-body">
-                                                                        <div class="form-group">
-                                                                            <label class="col-md-4 control-label"> Colors Schemes </label>
-                                                                            <div class="col-md-8">
-                                                                                <div class="input-group">
-                                                                                    <ul class="icheck-colors">
-                                                                                        <li> </li>
-                                                                                        <li class="red"> </li>
-                                                                                        <li class="green"> </li>
-                                                                                        <li class="blue"> </li>
-                                                                                        <li class="aero"> </li>
-                                                                                        <li class="grey active"> </li>
-                                                                                        <li class="orange"> </li>
-                                                                                        <li class="pink"> </li>
-                                                                                        <li class="purple"> </li>
-                                                                                    </ul>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="form-group">
-                                                                            <label class="col-md-4 control-label"> Checkbox List </label>
-                                                                            <div class="col-md-8">
-                                                                                <div class="input-group">
-                                                                                    <div class="icheck-list">
-                                                                                        <label>
-                                                                                            <input type="checkbox" class="icheck" data-checkbox="icheckbox_flat-grey"> Checkbox 1 </label>
-                                                                                        <label>
-                                                                                            <input type="checkbox" checked class="icheck" data-checkbox="icheckbox_flat-grey"> Checkbox 2 </label>
-                                                                                        <label>
-                                                                                            <input type="checkbox" class="icheck" data-checkbox="icheckbox_flat-grey"> Checkbox 3 </label>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="form-group">
-                                                                            <label class="col-md-4 control-label">Inline</label>
-                                                                            <div class="col-md-8">
-                                                                                <div class="input-group">
-                                                                                    <div class="icheck-inline">
-                                                                                        <label>
-                                                                                            <input type="checkbox" class="icheck" data-checkbox="icheckbox_flat-grey"> Checkbox 1 </label>
-                                                                                        <label>
-                                                                                            <input type="checkbox" checked class="icheck" data-checkbox="icheckbox_flat-grey"> Checkbox 2 </label>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="form-group">
-                                                                            <label class="col-md-4 control-label">Radio List</label>
-                                                                            <div class="col-md-8">
-                                                                                <div class="input-group">
-                                                                                    <div class="icheck-list">
-                                                                                        <label>
-                                                                                            <input type="radio" name="radio1" class="icheck" data-radio="iradio_flat-grey"> Radio Button 1 </label>
-                                                                                        <label>
-                                                                                            <input type="radio" name="radio1" checked class="icheck" data-radio="iradio_flat-grey"> Radio Button 2 </label>
-                                                                                        <label>
-                                                                                            <input type="radio" name="radio1" class="icheck" data-radio="iradio_flat-grey"> Radio Button 3 </label>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="form-group">
-                                                                            <label class="col-md-4 control-label">Inline Radios</label>
-                                                                            <div class="col-md-8">
-                                                                                <div class="input-group">
-                                                                                    <div class="icheck-inline">
-                                                                                        <label>
-                                                                                            <input type="radio" name="radio2" class="icheck" data-radio="iradio_flat-grey"> Radio Button 1 </label>
-                                                                                        <label>
-                                                                                            <input type="radio" name="radio2" checked class="icheck" data-radio="iradio_flat-grey"> Radio Button 2 </label>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="form-actions">
-                                                                        <button type="submit" class="btn red btn-outline">Submit</button>
-                                                                        <button type="button" class="btn default">Cancel</button>
-                                                                    </div>
-                                                                </form>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="control-label col-md-3">Meridian Format</label>
+                                                        <div class="col-md-4">
+                                                            <div class="input-group date form_meridian_datetime" data-date="2012-12-21T15:25:00Z">
+                                                                <input type="text" size="16" class="form-control">
+                                                                <span class="input-group-btn">
+                                                                    <button class="btn default date-reset" type="button">
+                                                                        <i class="fa fa-times"></i>
+                                                                    </button>
+                                                                    <button class="btn default date-set" type="button">
+                                                                        <i class="fa fa-calendar"></i>
+                                                                    </button>
+                                                                </span>
                                                             </div>
                                                         </div>
-                                                        <div class="tab-pane" id="portlet_tab_2_4">
-                                                            <div class="skin skin-line">
-                                                                <form class="form-horizontal" role="form">
-                                                                    <div class="form-body">
-                                                                        <div class="form-group">
-                                                                            <label class="col-md-4 control-label"> Colors Schemes </label>
-                                                                            <div class="col-md-8">
-                                                                                <div class="input-group">
-                                                                                    <ul class="icheck-colors">
-                                                                                        <li> </li>
-                                                                                        <li class="red"> </li>
-                                                                                        <li class="green"> </li>
-                                                                                        <li class="blue"> </li>
-                                                                                        <li class="aero"> </li>
-                                                                                        <li class="grey active"> </li>
-                                                                                        <li class="orange"> </li>
-                                                                                        <li class="pink"> </li>
-                                                                                        <li class="purple"> </li>
-                                                                                    </ul>
-                                                                                </div>
-                                                                            </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="control-label col-md-3">Inline</label>
+                                                        <div class="col-md-4">
+                                                            <div class="form_datetime" data-date="2012-12-21T15:25:00Z"> </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group last">
+                                                        <label class="control-label col-md-3"></label>
+                                                        <div class="col-md-4">
+                                                            <a class="btn btn-outline red" href="#form_modal1" data-toggle="modal"> View Datetimepicker in modal
+                                                                <i class="fa fa-share"></i>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-actions">
+                                                    <div class="row">
+                                                        <div class="col-md-offset-3 col-md-9">
+                                                            <button type="submit" class="btn grey-salsa btn-outline">
+                                                                <i class="fa fa-check"></i> Submit</button>
+                                                            <button type="button" class="btn green">Cancel</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                            <div id="form_modal1" class="modal fade" role="dialog" aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                                                            <h4 class="modal-title">Datetimepicker in Modal</h4>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <form action="#" class="form-horizontal">
+                                                                <div class="form-group">
+                                                                    <label class="control-label col-md-4">Default Datetimepicker</label>
+                                                                    <div class="col-md-8">
+                                                                        <div class="input-group date form_datetime input-large">
+                                                                            <input type="text" size="16" readonly class="form-control">
+                                                                            <span class="input-group-btn">
+                                                                                <button class="btn default date-set" type="button">
+                                                                                    <i class="fa fa-calendar"></i>
+                                                                                </button>
+                                                                            </span>
                                                                         </div>
-                                                                        <div class="form-group">
-                                                                            <label class="col-md-4 control-label"> Checkbox List </label>
-                                                                            <div class="col-md-8">
-                                                                                <div class="input-group">
-                                                                                    <div class="icheck-list">
-                                                                                        <label>
-                                                                                            <input type="checkbox" class="icheck" data-checkbox="icheckbox_line-grey" data-label="Checkbox Button 1"> </label>
-                                                                                        <label>
-                                                                                            <input type="checkbox" checked class="icheck" data-checkbox="icheckbox_line-grey" data-label="Checkbox Button 2"> </label>
-                                                                                        <label>
-                                                                                            <input type="checkbox" class="icheck" data-checkbox="icheckbox_line-grey" data-label="Checkbox Button 3"> </label>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="form-group">
-                                                                            <label class="col-md-4 control-label">Inline</label>
-                                                                            <div class="col-md-8">
-                                                                                <div class="input-group">
-                                                                                    <div class="icheck-inline">
-                                                                                        <label>
-                                                                                            <input type="checkbox" class="icheck" data-checkbox="icheckbox_line-grey" data-label="Checkbox 1"> </label>
-                                                                                        <label>
-                                                                                            <input type="checkbox" checked class="icheck" data-checkbox="icheckbox_line-grey" data-label="Checkbox 2"> </label>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="form-group">
-                                                                            <label class="col-md-4 control-label">Radio List</label>
-                                                                            <div class="col-md-8">
-                                                                                <div class="input-group">
-                                                                                    <div class="icheck-list">
-                                                                                        <label>
-                                                                                            <input type="radio" name="radio1" class="icheck" data-radio="iradio_line-grey" data-label="Radio Button 1"> </label>
-                                                                                        <label>
-                                                                                            <input type="radio" name="radio1" checked class="icheck" data-radio="iradio_line-grey" data-label="Radio Button 2"> </label>
-                                                                                        <label>
-                                                                                            <input type="radio" name="radio1" class="icheck" data-radio="iradio_line-grey" data-label="Radio Button 3"> </label>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="form-group">
-                                                                            <label class="col-md-4 control-label">Inline Radios</label>
-                                                                            <div class="col-md-8">
-                                                                                <div class="input-group">
-                                                                                    <div class="icheck-inline">
-                                                                                        <label>
-                                                                                            <input type="radio" name="radio2" class="icheck" data-radio="iradio_line-grey" data-label="Radio Button 1"> </label>
-                                                                                        <label>
-                                                                                            <input type="radio" name="radio2" checked class="icheck" data-radio="iradio_line-grey" data-label="Radio Button 2"> </label>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
+                                                                        <!-- /input-group -->
                                                                     </div>
-                                                                    <div class="form-actions">
-                                                                        <button type="submit" class="btn purple">Submit</button>
-                                                                        <button type="button" class="btn default">Cancel</button>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label class="control-label col-md-4">Advance Datetimepicker</label>
+                                                                    <div class="col-md-8">
+                                                                        <div class="input-group date form_datetime input-large" data-date="2012-12-21T15:25:00Z">
+                                                                            <input type="text" size="16" readonly class="form-control">
+                                                                            <span class="input-group-btn">
+                                                                                <button class="btn default date-reset" type="button">
+                                                                                    <i class="fa fa-times"></i>
+                                                                                </button>
+                                                                                <button class="btn default date-set" type="button">
+                                                                                    <i class="fa fa-calendar"></i>
+                                                                                </button>
+                                                                            </span>
+                                                                        </div>
+                                                                        <!-- /input-group -->
                                                                     </div>
-                                                                </form>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label class="control-label col-md-4">Meridian Format</label>
+                                                                    <div class="col-md-8">
+                                                                        <div class="input-group date form_meridian_datetime input-large" data-date="2012-12-21T15:25:00Z">
+                                                                            <input type="text" size="16" class="form-control">
+                                                                            <span class="input-group-btn">
+                                                                                <button class="btn default date-reset" type="button">
+                                                                                    <i class="fa fa-times"></i>
+                                                                                </button>
+                                                                                <button class="btn default date-set" type="button">
+                                                                                    <i class="fa fa-calendar"></i>
+                                                                                </button>
+                                                                            </span>
+                                                                        </div>
+                                                                        <!-- /input-group -->
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button class="btn grey-salsa btn-outline" data-dismiss="modal" aria-hidden="true">Close</button>
+                                                            <button class="btn green btn-primary" data-dismiss="modal">Save changes</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- END FORM-->
+                                        </div>
+                                    </div>
+                                    <!-- END PORTLET-->
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <!-- BEGIN PORTLET-->
+                                    <div class="portlet box red">
+                                        <div class="portlet-title">
+                                            <div class="caption">
+                                                <i class="fa fa-gift"></i>Time Pickers </div>
+                                            <div class="tools">
+                                                <a href="javascript:;" class="collapse"> </a>
+                                                <a href="#portlet-config" data-toggle="modal" class="config"> </a>
+                                                <a href="javascript:;" class="reload"> </a>
+                                                <a href="javascript:;" class="remove"> </a>
+                                            </div>
+                                        </div>
+                                        <div class="portlet-body form">
+                                            <!-- BEGIN FORM-->
+                                            <form action="#" class="form-horizontal form-bordered">
+                                                <div class="form-body form">
+                                                    <div class="form-group">
+                                                        <label class="control-label col-md-3">Default Timepicker</label>
+                                                        <div class="col-md-3">
+                                                            <div class="input-icon">
+                                                                <i class="fa fa-clock-o"></i>
+                                                                <input type="text" class="form-control timepicker timepicker-default"> </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="control-label col-md-3">Without Seconds</label>
+                                                        <div class="col-md-3">
+                                                            <div class="input-group">
+                                                                <input type="text" class="form-control timepicker timepicker-no-seconds">
+                                                                <span class="input-group-btn">
+                                                                    <button class="btn default" type="button">
+                                                                        <i class="fa fa-clock-o"></i>
+                                                                    </button>
+                                                                </span>
                                                             </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="control-label col-md-3">24hr Timepicker</label>
+                                                        <div class="col-md-3">
+                                                            <div class="input-group">
+                                                                <input type="text" class="form-control timepicker timepicker-24">
+                                                                <span class="input-group-btn">
+                                                                    <button class="btn default" type="button">
+                                                                        <i class="fa fa-clock-o"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="control-label col-md-3"></label>
+                                                        <div class="col-md-3">
+                                                            <a class="btn dark btn-outline" href="#form_modal4" data-toggle="modal"> View Timepicker in modal
+                                                                <i class="fa fa-share"></i>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                            <div id="form_modal4" class="modal fade" aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                                                            <h4 class="modal-title">Timepickers In Modal</h4>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <form action="#" class="form-horizontal">
+                                                                <div class="form-group">
+                                                                    <label class="control-label col-md-4">Default Timepicker</label>
+                                                                    <div class="col-md-5">
+                                                                        <div class="input-icon">
+                                                                            <i class="fa fa-clock-o"></i>
+                                                                            <input type="text" class="form-control timepicker timepicker-default"> </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label class="control-label col-md-4">Without Seconds</label>
+                                                                    <div class="col-md-5">
+                                                                        <div class="input-group">
+                                                                            <input type="text" class="form-control timepicker timepicker-no-seconds">
+                                                                            <span class="input-group-btn">
+                                                                                <button class="btn default" type="button">
+                                                                                    <i class="fa fa-clock-o"></i>
+                                                                                </button>
+                                                                            </span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label class="control-label col-md-4">24hr Timepicker</label>
+                                                                    <div class="col-md-5">
+                                                                        <div class="input-group">
+                                                                            <input type="text" class="form-control timepicker timepicker-24">
+                                                                            <span class="input-group-btn">
+                                                                                <button class="btn default" type="button">
+                                                                                    <i class="fa fa-clock-o"></i>
+                                                                                </button>
+                                                                            </span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button class="btn dark btn-outline" data-dismiss="modal" aria-hidden="true">Close</button>
+                                                            <button class="btn green btn-primary" data-dismiss="modal">Save changes</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- END FORM-->
+                                        </div>
+                                    </div>
+                                    <!-- END PORTLET-->
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <!-- BEGIN PORTLET-->
+                                    <div class="portlet box green">
+                                        <div class="portlet-title">
+                                            <div class="caption">
+                                                <i class="fa fa-gift"></i>Daterange Pickers </div>
+                                            <div class="tools">
+                                                <a href="javascript:;" class="collapse"> </a>
+                                                <a href="#portlet-config" data-toggle="modal" class="config"> </a>
+                                                <a href="javascript:;" class="reload"> </a>
+                                                <a href="javascript:;" class="remove"> </a>
+                                            </div>
+                                        </div>
+                                        <div class="portlet-body form">
+                                            <!-- BEGIN FORM-->
+                                            <form action="#" class="form-horizontal form-bordered">
+                                                <div class="form-body">
+                                                    <div class="form-group">
+                                                        <label class="control-label col-md-3">Default Date Ranges</label>
+                                                        <div class="col-md-4">
+                                                            <div class="input-group" id="defaultrange">
+                                                                <input type="text" class="form-control">
+                                                                <span class="input-group-btn">
+                                                                    <button class="btn default date-range-toggle" type="button">
+                                                                        <i class="fa fa-calendar"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group ">
+                                                        <label class="control-label col-md-3">Advance Date Ranges</label>
+                                                        <div class="col-md-4">
+                                                            <div id="reportrange" class="btn default">
+                                                                <i class="fa fa-calendar"></i> &nbsp;
+                                                                <span> </span>
+                                                                <b class="fa fa-angle-down"></b>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group last">
+                                                        <label class="control-label col-md-3"></label>
+                                                        <div class="col-md-4">
+                                                            <a class="btn green btn-outline" href="#daterangepicker_modal" data-toggle="modal"> View Daterange Picker in modal
+                                                                <i class="fa fa-share"></i>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-actions">
+                                                    <div class="row">
+                                                        <div class="col-md-offset-3 col-md-9">
+                                                            <button type="submit" class="btn red">
+                                                                <i class="fa fa-check"></i> Submit</button>
+                                                            <button type="button" class="btn default">Cancel</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                            <div id="daterangepicker_modal" class="modal fade" role="dialog" aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                                                            <h4 class="modal-title">Daterange Picker in Modal</h4>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <form action="#" class="form-horizontal">
+                                                                <div class="form-group">
+                                                                    <label class="control-label col-md-4">Default Date Ranges</label>
+                                                                    <div class="col-md-8">
+                                                                        <div class="input-group input-large" id="defaultrange_modal">
+                                                                            <input type="text" class="form-control">
+                                                                            <span class="input-group-btn">
+                                                                                <button class="btn default date-range-toggle" type="button">
+                                                                                    <i class="fa fa-calendar"></i>
+                                                                                </button>
+                                                                            </span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button class="btn dark btn-outline" data-dismiss="modal" aria-hidden="true">Close</button>
+                                                            <button class="btn green btn-primary" data-dismiss="modal">Save changes</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- END FORM-->
+                                        </div>
+                                    </div>
+                                    <!-- END PORTLET-->
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <!-- BEGIN PORTLET-->
+                                    <div class="portlet box blue">
+                                        <div class="portlet-title">
+                                            <div class="caption">
+                                                <i class="fa fa-gift"></i> Clockface Time Pickers </div>
+                                            <div class="tools">
+                                                <a href="javascript:;" class="collapse"> </a>
+                                                <a href="#portlet-config" data-toggle="modal" class="config"> </a>
+                                            </div>
+                                        </div>
+                                        <div class="portlet-body form">
+                                            <form action="#" class="form-horizontal form-bordered">
+                                                <div class="form-body">
+                                                    <div class="form-group">
+                                                        <label class="control-label col-md-3">Input</label>
+                                                        <div class="col-md-3">
+                                                            <input type="text" value="2:30 PM" data-format="hh:mm A" class="form-control clockface_1" /> </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="control-label col-md-3">Button</label>
+                                                        <div class="col-md-3">
+                                                            <div class="input-group">
+                                                                <input type="text" id="clockface_2" value="14:30" class="form-control" readonly="" />
+                                                                <span class="input-group-btn">
+                                                                    <button class="btn default" type="button" id="clockface_2_toggle">
+                                                                        <i class="fa fa-clock-o"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="control-label col-md-3">Inline</label>
+                                                        <div class="col-md-4">
+                                                            <div class="well clockface_3" style="padding: 0; width: 162px;"> </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group last">
+                                                        <label class="control-label col-md-3"></label>
+                                                        <div class="col-md-3">
+                                                            <a class="btn dark btn-outline" href="#form_modal5" data-toggle="modal"> View Clockface Time Pickers in modal
+                                                                <i class="fa fa-share"></i>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                            <div id="form_modal5" class="modal fade" aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                                                            <h4 class="modal-title">Clockface In Modal</h4>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <form action="#" class="form-horizontal">
+                                                                <div class="form-group">
+                                                                    <label class="control-label col-md-3">Input</label>
+                                                                    <div class="col-md-4">
+                                                                        <input type="text" value="2:30 PM" data-format="hh:mm A" class="form-control clockface_1" /> </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label class="control-label col-md-3">Button</label>
+                                                                    <div class="col-md-4">
+                                                                        <div class="input-group">
+                                                                            <input type="text" id="clockface_2_modal" value="14:30" class="form-control" readonly="" />
+                                                                            <span class="input-group-btn">
+                                                                                <button class="btn default" type="button" id="clockface_2_modal_toggle">
+                                                                                    <i class="fa fa-clock-o"></i>
+                                                                                </button>
+                                                                            </span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label class="control-label col-md-3">Inline</label>
+                                                                    <div class="col-md-4">
+                                                                        <div class="well clockface_3" style="padding: 0; width: 162px;"> </div>
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button class="btn default" data-dismiss="modal" aria-hidden="true">Close</button>
+                                                            <button class="btn green" data-dismiss="modal">Save changes</button>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -2613,14 +2527,4 @@ License: You must have a valid license purchased only from themeforest(the above
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- END PRE-FOOTER -->
-        <!-- BEGIN INNER FOOTER -->
-        <div class="page-footer">
-            <div class="container"> 2014 &copy; Metronic by keenthemes.
-                <a href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" title="Purchase Metronic just for 27$ and get lifetime updates for free" target="_blank">Purchase Metronic!</a>
-            </div>
-        </div>
-        <div class="scroll-to-top">
-            <i class="icon-arrow-up"></i>
         </div>
