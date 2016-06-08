@@ -13,7 +13,7 @@ Rails.application.routes.draw do
   get 'help', to: 'welcome#help'
   get 'mentor_list', to: 'mentorlist#mentor_list'
   get 'mentor_profile', to: 'mentorlist#mentor_profile'
-
+  get 'test2', to: 'welcome#test2'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

@@ -43,6 +43,19 @@
 .post:hover .entry-hover {
 	opacity: 1;
 }
+.post .entry-hover2 {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0);
+	opacity: 1;
+	transition: all 0s;
+	text-align: center;
+}
+.post:hover .entry-hover2 {
+	opacity: 1;
+}
 .post .box-comments a {
 	margin-right: 24px;
 	color: #444;
@@ -107,9 +120,17 @@
 }
 .post .post-btn {
 	margin-right: auto;
-	margin-left: auto;
-	padding: 20px 50px;
-  padding-bottom: 40px;
+	margin-left: -80px;
+	padding: 20px 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+	font-size: 15px;
+}
+.post .post-btn2 {
+	margin-right: auto;
+	margin-left: 140px;
+	padding: 20px 10px;
+  padding-bottom: 10px;
   padding-top: 10px;
 	font-size: 15px;
 }
@@ -466,9 +487,9 @@
 	display: block;
 	max-width: 970px;
 	margin-right: auto;
-	margin-bottom: 54px;
+	margin-bottom: 0px;
 	margin-left: auto;
-  margin-top: 40px;
+  margin-top: 0px;
 }
 .post_mod-i .entry-title {
 	display: inline-block;
@@ -481,7 +502,7 @@
 }
 .post_mod-i .entry-main {
 	margin-left: 250px;
-	padding: 2px 30px 35px 90px;
+	padding: 2px 30px 70px 50px;
 	border-right: 1px solid #eee;
 	border-bottom: 1px solid #eee;
 	border-left: 1px solid #eee;
@@ -495,7 +516,10 @@
 
 /* BUTTON MARGINS */
 .post_mod-i .post-btn {
-	margin-top: 170px;
+	margin-top: 240px;
+}
+.post_mod-i .post-btn2 {
+	margin-top: 240px;
 }
 .post_mod-i .rating {
 	display: inline-block;
