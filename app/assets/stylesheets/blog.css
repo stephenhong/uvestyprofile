@@ -120,19 +120,19 @@
 }
 .post .post-btn {
 	margin-right: auto;
-	margin-left: -80px;
+	margin-left: -45px;
 	padding: 20px 10px;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
   padding-top: 10px;
-	font-size: 15px;
+	font-size: 14px;
 }
 .post .post-btn2 {
 	margin-right: auto;
-	margin-left: 140px;
+	margin-left: 105px;
 	padding: 20px 10px;
-  padding-bottom: 10px;
+  padding-bottom: 8px;
   padding-top: 10px;
-	font-size: 15px;
+	font-size: 14px;
 }
 .post .entry-time {
 	display: block;
@@ -501,8 +501,8 @@
 	float: left;
 }
 .post_mod-i .entry-main {
-	margin-left: 250px;
-	padding: 2px 30px 70px 50px;
+	margin-left: 180px;
+	padding: 0px 30px 10px 30px;
 	border-right: 1px solid #eee;
 	border-bottom: 1px solid #eee;
 	border-left: 1px solid #eee;
@@ -511,15 +511,15 @@
 	margin-top: 2px;
 }
 .post_mod-i .box-comments {
-	margin-top: 32px;
+	margin-top: 0px;
 }
 
 /* BUTTON MARGINS */
 .post_mod-i .post-btn {
-	margin-top: 240px;
+	margin-top: 160px;
 }
 .post_mod-i .post-btn2 {
-	margin-top: 240px;
+	margin-top: 160px;
 }
 .post_mod-i .rating {
 	display: inline-block;
