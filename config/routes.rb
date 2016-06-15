@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'welcome#index'
   get 'user_profile', to: 'welcome#user_profile'
-  get 'video_course', to: 'videocourse#video_course'
+  get 'video_courses', to: 'videocourse#video_courses'
   get 'account_settings', to: 'welcome#account_settings'
   get 'test', to: 'welcome#test'
   get 'sidebar', to: 'welcome#sidebar'
@@ -16,6 +16,7 @@ Rails.application.routes.draw do
   get 'test2', to: 'welcome#test2'
   get 'test3', to: 'welcome#test3'
   get 'my_courses', to: 'videocourse#my_courses'
+  get 'course_overview', to: 'videocourse#course_overview'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
