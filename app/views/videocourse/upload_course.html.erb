@@ -1,29 +1,259 @@
+<!DOCTYPE html>
 <html lang="en">
     <body class="page-container-bg-solid">
-        <!--BEGIN CONTAINER-->
+        <!-- BEGIN CONTAINER -->
         <div class="page-container">
-            <!--BEGIN CONTENT-->
+            <!-- BEGIN CONTENT -->
             <div class="page-content-wrapper">
-                <!--BEGIN CONTENT BODY-->
-                <!--BEGIN PAGE HEAD-->
+                <!-- BEGIN CONTENT BODY -->
+                <!-- BEGIN PAGE HEAD-->
                 <div class="page-head">
                     <div class="container">
-                        <!--BEGIN PAGE TITLE-->
+                        <!-- BEGIN PAGE TITLE -->
                         <div class="page-title">
-                            <h1>Video Courses</h1>
+                            <h1> Upload Course
+                                <small></small>
+                            </h1>
                         </div>
-                        <!--END PAGE TITLE-->
+                        <!-- END PAGE TITLE -->
                     </div>
                 </div>
-                                            <!--BEGIN BUY NOW BTN POP UP-->
-                                            <div id="form_modal" class="modal fade" role="dialog" aria-hidden="true">
-                                                <div class="modal-dialog">
-                                                    <div class="modal-content">
-                                                        <div class="modal-header">
-                                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
-                                                            <h4 class="modal-title">Payment Info</h4>
+                <!-- END PAGE HEAD-->
+                <!-- BEGIN PAGE CONTENT BODY -->
+                <div class="page-content">
+                    <div class="container">
+                        <!-- BEGIN PAGE CONTENT INNER -->
+                        <div class="page-content-inner">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <!-- BEGIN PROFILE CONTENT -->
+                                    <div class="profile-content">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="portlet light ">
+                                                    <div class="portlet-title tabbable-line">
+                                                        <div class="caption caption-md">
+                                                            <i class="icon-globe theme-font hide"></i>
+                                                            <span class="caption-subject font-blue-madison bold uppercase">Edit Profile</span>
                                                         </div>
-                                                        <div class="modal-body">
+                                                        <ul class="nav nav-tabs">
+                                                            <li class="active">
+                                                                <a href="#tab_1_1" data-toggle="tab">Personal Info</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#tab_1_2" data-toggle="tab">Change Picture</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#tab_1_3" data-toggle="tab">Change Password</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#tab_1_4" data-toggle="tab">Payment Info</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="portlet-body">
+                                                        <div class="tab-content">
+                                                            <!-- BEGIN PERSONAL INFO TAB -->
+                                                            <div class="tab-pane active" id="tab_1_1">
+                                                                <form role="form" action="#">
+                                                                    <div class="form-group">
+                                                                        <label class="control-label">First Name</label>
+                                                                        <input type="text" class="form-control" /> </div>
+                                                                    <div class="form-group">
+                                                                        <label class="control-label">Last Name</label>
+                                                                        <input type="text" class="form-control" /> </div>
+                                                                    <div class="form-group">
+                                                                        <label class="control-label">About</label>
+                                                                        <textarea rows="4" maxlength="220" class="form-control" placeholder="Max 40 words/220 characters"></textarea></div>
+                                                                    <div class="form-group">
+                                                                       <label class="control-label">Hourly Rate</label>
+                                                                       <input type="text" placeholder="e.g: 7.25, 10.5, 16, etc" class="form-control" /> </div>
+
+                                                                    <th> Days Available </th>
+                                                                      <div class="row">
+                                                                       <div class="col-md-12 col-sm-12">
+                                                                         <div class="portlet-body">
+                                                         <table class="table table-hover table-light">
+                                                                 <tr>
+                                                                    <td> <label class="mt-checkbox">
+                                                                         <input type="checkbox" /> Monday
+                                                                         <span></span>
+                                                                         </label>
+                                                                    </td>
+                                                                    <td> <label class="mt-checkbox">
+                                                                         <input type="checkbox" /> Tuesday
+                                                                         <span></span>
+                                                                         </label>
+                                                                    </td>
+                                                                    <td> <label class="mt-checkbox">
+                                                                         <input type="checkbox" /> Wednesday
+                                                                         <span></span>
+                                                                         </label>
+                                                                    </td>
+                                                                    <td> <label class="mt-checkbox">
+                                                                         <input type="checkbox" /> Thursday
+                                                                         <span></span>
+                                                                         </label>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td> <label class="mt-checkbox">
+                                                                         <input type="checkbox" /> Friday
+                                                                         <span></span>
+                                                                         </label>
+                                                                    </td>
+                                                                    <td> <label class="mt-checkbox">
+                                                                         <input type="checkbox" /> Saturday
+                                                                         <span></span>
+                                                                         </label>
+                                                                    </td>
+                                                                    <td> <label class="mt-checkbox">
+                                                                         <input type="checkbox" /> Sunday
+                                                                         <span></span>
+                                                                         </label>
+                                                                    </td>
+                                                                </tr>
+                                                          </table>
+                                                                         </div>
+                                                                       </div>
+                                                                  </div>
+
+                                                                    <th> Area of Expertise </th>
+                                                                  <div class="row">
+                                                                       <div class="col-md-12 col-sm-12">
+                                                                         <div class="portlet-body">
+                                                         <table class="table table-hover table-light">
+                                                                 <tr>
+                                                                    <td> <label class="mt-checkbox">
+                                                                         <input type="checkbox" /> Options
+                                                                         <span></span>
+                                                                         </label>
+                                                                    </td>
+                                                                    <td> <label class="mt-checkbox">
+                                                                         <input type="checkbox" /> Stocks
+                                                                         <span></span>
+                                                                         </label>
+                                                                    </td>
+                                                                    <td> <label class="mt-checkbox">
+                                                                         <input type="checkbox" /> Forex
+                                                                         <span></span>
+                                                                         </label>
+                                                                    </td>
+                                                                    <td> <label class="mt-checkbox">
+                                                                         <input type="checkbox" /> Real Estate
+                                                                         <span></span>
+                                                                         </label>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td> <label class="mt-checkbox">
+                                                                         <input type="checkbox" /> VC &amp; Angel
+                                                                         <span></span>
+                                                                         </label>
+                                                                    </td>
+                                                                    <td> <label class="mt-checkbox">
+                                                                         <input type="checkbox" /> Economics
+                                                                         <span></span>
+                                                                         </label>
+                                                                    </td>
+                                                                    <td> <label class="mt-checkbox">
+                                                                         <input type="checkbox" /> Personal Finance
+                                                                         <span></span>
+                                                                         </label>
+                                                                    </td>
+                                                                    <td> <label class="mt-checkbox">
+                                                                         <input type="checkbox" /> Portfolio Management
+                                                                         <span></span>
+                                                                         </label>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td> <label class="mt-checkbox">
+                                                                         <input type="checkbox" /> Value Investments
+                                                                         <span></span>
+                                                                         </label>
+                                                                    </td>
+                                                                    <td> <label class="mt-checkbox">
+                                                                         <input type="checkbox" /> Day Trading
+                                                                         <span></span>
+                                                                         </label>
+                                                                    </td>
+                                                                    <td> <label class="mt-checkbox">
+                                                                         <input type="checkbox" /> Swing Trading
+                                                                         <span></span>
+                                                                         </label>
+                                                                    </td>
+                                                                    <td> <label class="mt-checkbox">
+                                                                         <input type="checkbox" /> Others
+                                                                         <span></span>
+                                                                         </label>
+                                                                    </td>
+                                                                </tr>
+                                                          </table>
+
+                                                                         </div>
+                                                                       </div>
+                                                                  </div>
+                                                                    <div class="margiv-top-10">
+                                                                        <a href="javascript:;" class="btn green"> Save Changes </a>
+                                                                        <a href="javascript:;" class="btn default"> Cancel </a>
+                                                                    </div>
+                                                                </form>
+                                                            </div>
+                                                            <!-- END PERSONAL INFO TAB -->
+                                                            <!-- BEGIN CHANGE PICTURE TAB -->
+                                                            <div class="tab-pane" id="tab_1_2">
+                                                                <p> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. </p>
+                                                                <form action="#" role="form">
+                                                                    <div class="form-group">
+                                                                        <div class="fileinput fileinput-new" data-provides="fileinput">
+                                                                            <div class="fileinput-new thumbnail" style="width: 200px; height: 150px;">
+                                                                                <img src="http://www.placehold.it/200x150/EFEFEF/AAAAAA&amp;text=no+image" alt="" />
+                                                                            </div>
+                                                                            <div class="fileinput-preview fileinput-exists thumbnail" style="max-width: 200px; max-height: 150px;">
+                                                                            </div>
+                                                                            <div>
+                                                                                <span class="btn default btn-file">
+                                                                                    <span class="fileinput-new"> Select image </span>
+                                                                                    <span class="fileinput-exists"> Change </span>
+                                                                                    <input type="file" name="..."> </span>
+                                                                                <a href="javascript:;" class="btn default fileinput-exists" data-dismiss="fileinput"> Remove </a>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="clearfix margin-top-10">
+                                                                            <span class="label label-danger">NOTE! </span>
+                                                                            <span>Attached image thumbnail is supported in Latest Firefox, Chrome, Opera, Safari and Internet Explorer 10 only </span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="margin-top-10">
+                                                                        <a href="javascript:;" class="btn green"> Submit </a>
+                                                                        <a href="javascript:;" class="btn default"> Cancel </a>
+                                                                    </div>
+                                                                </form>
+                                                            </div>
+                                                            <!-- END CHANGE PICTURE TAB -->
+                                                            <!-- BEGIN CHANGE PASSWORD TAB -->
+                                                            <div class="tab-pane" id="tab_1_3">
+                                                                <form action="#">
+                                                                    <div class="form-group">
+                                                                        <label class="control-label">Current Password</label>
+                                                                        <input type="password" class="form-control" /> </div>
+                                                                    <div class="form-group">
+                                                                        <label class="control-label">New Password</label>
+                                                                        <input type="password" class="form-control" /> </div>
+                                                                    <div class="form-group">
+                                                                        <label class="control-label">Re-type New Password</label>
+                                                                        <input type="password" class="form-control" /> </div>
+                                                                    <div class="margin-top-10">
+                                                                        <a href="javascript:;" class="btn green"> Change Password </a>
+                                                                        <a href="javascript:;" class="btn default"> Cancel </a>
+                                                                    </div>
+                                                                </form>
+                                                            </div>
+                                                            <!-- END CHANGE PASSWORD TAB -->
+                                                            <!-- BEGIN PAYMENT INFO TAB -->
+                                                            <div class="tab-pane" id="tab_1_4">
+                                                                <form action="#">
                                                                       <div class="form-group">
                                                                           <label class="control-label">Card Holder Name</label>
                                                                           <input type="text" class="form-control" />
@@ -310,7 +540,7 @@
                                                                                         <span></span>
                                                                                     </label>
                                                                                     <label class="mt-radio">
-                                                                                          <input type="radio" name="membership" value="2" /> American Express
+                                                                                          <input type="radio" name="membership" value="2" /> Paypal
                                                                                         <span></span>
                                                                                     </label>
                                                                                 </div>
@@ -328,149 +558,30 @@
                                                                             <label class="control-label">Expiration</label>
                                                                             <input type="text" placeholder="MM/YYYY" class="form-control" />
                                                                         </div>
-                                                                        <div class="form-group">
-                                                                            <div class="col-md-12">
-                                                                                <div class="checkbox-list">
-                                                                                    <label>
-                                                                                        <input type="checkbox" name="payment[]" value="1" data-title="Auto-Pay with this Credit Card." /> Remember this Card </label>
-                                                                                </div>
-                                                                                <div id="form_payment_error"> </div>
-                                                                            </div>
+                                                                        <div class="margin-top-10">
+                                                                            <a href="javascript:;" class="btn red"> Save Changes </a>
+                                                                            <a href="javascript:;" class="btn default"> Cancel </a>
+                                                                            <a href="javascript:;" class="btn green"> Add New Card </a>
                                                                         </div>
-                                                        </div>
-                                                        <div class="modal-footer">
-                                                            <button class="btn grey-salsa btn-outline" data-dismiss="modal" aria-hidden="true">Cancel</button>
-                                                            <button class="btn green btn-primary" data-dismiss="modal">Confirm</button>
+                                                                </form>
+                                                            </div>
+                                                            <!-- END PAYMENT INFO TAB -->
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!--END BUY NOW BTN POP UP-->
-                <!--BEGIN PAGE CONTENT BODY-->
-                <div class="page-content">
-                    <div class="container">
-                        <!--BEGIN PAGE CONTENT INNER-->
-                        <div class="page-content-inner">
-                            <div class="search-page search-content-3">
-                                <div class="row">
-                                    <div class="col-md-3">
-                                        <!--BEGIN SEARCH SIDEBAR-->
-                                        <div class="search-filter">
-                                            <div class="search-label uppercase">Search By</div>
-                                            <div class="input-icon right">
-                                                <i class="icon-magnifier"></i>
-                                                <input type="text" class="form-control" placeholder="Filter by keywords"> </div>
-                                            <div class="search-label uppercase">Sort By</div>
-                                            <select class="form-control">
-                                                <option>Select...</option>
-                                                <option>Price: Low to High</option>
-                                                <option>Price: High to Low</option>
-                                                <option>Avg. Number of Reviews</option>
-                                            </select>
-                                            <div class="search-label uppercase">Date</div>
-                                            <div class="input-icon right">
-                                              <i class="icon-calendar"></i>
-                                                <input class="form-control date-picker" type="text" placeholder="Any Date" /> </div>
-                                            <button class="btn green bold uppercase btn-block">Update Search Results</button>
-                                            <div class="search-filter-divider bg-grey-steel"></div>
-                                            <div class="row">
-                                                <div>
-                                                    <button class="btn grey bold uppercase btn-block">Reset Search</button>
-                                                </div>
-                                                <div>
-                                                    <button class="btn grey-cararra font-blue bold btn-block">Advanced Search</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!--END SEARCH SIDEBAR-->
-                                    </div>
-                                    <!--BEGIN PAGE CONTENT-->
-                                    <div class="profile-content">
-                                        <div class="row">
-                                        <!--BEGIN : OVERLAY-->
-                                        <div class="col-md-14">
-                                            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12;" style="width: 295px;">
-                                                <div class="portlet light portlet-fit ">
-                                                    <div class="portlet-title">
-                                                        <div>
-                                                            <div class="caption" align="center">
-                                                                <div class="entry-thumbnail"> <img class="img-responsive" src="https://cdn2.iconfinder.com/data/icons/money-operations/512/save_money-512.png" width="100" height="100" alt="Foto"/> </div> <br>
-                                                                <div class="caption-subject font-green bold uppercase"><a href="course_overview.html">Forex Trading</a></div>
-                                                                <div class="caption-desc font-grey-cascade"> By Eric Cartman </div>
-                                                                    <span class="ratingNum" style="margin-left:20px;"></span>
-                                                                        <ul class="rating">
-                                                                            <li><i class="icon fa fa-star"></i></li>
-                                                                            <li><i class="icon fa fa-star"></i></li>
-                                                                            <li><i class="icon fa fa-star"></i></li>
-                                                                            <li><i class="icon fa fa-star"></i></li>
-                                                                            <li><i class="icon fa fa-star-o"></i></li>
-                                                                        </ul>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="portlet-body">
-                                                        <div class="row">
-                                                            <div class="col-md-12">
-                                                                <ul>
-                                                                    <li>description text 1</li>
-                                                                    <li>description text 2</li>
-                                                                    <li>description text 3</li>
-                                                                </ul><br>
-                                                            </div>
-                                                            <a href="#form_modal" data-toggle="modal">
-                                                            <input type="button" class="btn red-mint btn-outline btn-block sbold uppercase" value="Buy Now"></a>
-                                                         </div>
-                                                     </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!--END : OVERLAY-->
                                         </div>
                                     </div>
-                                    <!--END PAGE CONTENT-->
+                                    <!-- END PROFILE CONTENT -->
                                 </div>
                             </div>
                         </div>
-                        <!--END PAGE CONTENT INNER-->
+                        <!-- END PAGE CONTENT INNER -->
                     </div>
-                                        <div class="portlet-body" align="center">
-                                            <div>
-                                                <ul class="pagination">
-                                                    <li>
-                                                        <a href="javascript:;">
-                                                            <i class="fa fa-angle-left"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li class="active">
-                                                        <a href="javascript:;"> 1 </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:;"> 2 </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:;"> 3 </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:;"> 4 </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:;"> 5 </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:;"> 6 </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:;">
-                                                            <i class="fa fa-angle-right"></i>
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
                 </div>
-                <!--END PAGE CONTENT BODY-->
-                <!--END CONTENT BODY-->
+                <!-- END PAGE CONTENT BODY -->
+                <!-- END CONTENT BODY -->
             </div>
-            <!--END CONTENT-->
+            <!-- END CONTENT -->
         </div>
-        <!--END CONTAINER-->
+        <!-- END CONTAINER -->

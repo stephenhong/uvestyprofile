@@ -14,9 +14,13 @@ Rails.application.routes.draw do
   get 'mentor_list', to: 'mentorlist#mentor_list'
   get 'mentor_profile', to: 'mentorlist#mentor_profile'
   get 'test2', to: 'welcome#test2'
-  get 'test3', to: 'welcome#test3'
+  get 'mentor_dashboard', to: 'welcome#mentor_dashboard'
   get 'my_courses', to: 'videocourse#my_courses'
   get 'course_overview', to: 'videocourse#course_overview'
+  get 'my_course_overview', to: 'videocourse#my_course_overview'
+  get 'upload_course', to: 'videocourse#upload_course'
+  get 'blog', to: 'welcome#blog'
+  get 'blog_post', to: 'welcome#blog_post'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
