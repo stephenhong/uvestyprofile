@@ -16,7 +16,7 @@
 
 
 ::-moz-selection { background: #fd5c63;  color:#fd5c63 !important;  }
-::selection { background: #fd5c63 ; color:#fd5c63 !important; }
+::selection { background: #32c5d2 ; color:#fdfdfd !important; }
 
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {

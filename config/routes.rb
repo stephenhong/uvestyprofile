@@ -14,7 +14,7 @@ Rails.application.routes.draw do
   get 'mentor_list', to: 'mentorlist#mentor_list'
   get 'mentor_profile', to: 'mentorlist#mentor_profile'
   get 'test2', to: 'welcome#test2'
-  get 'mentor_dashboard', to: 'welcome#mentor_dashboard'
+  get 'mentor_dashboard', to: 'mentorlist#mentor_dashboard'
   get 'my_courses', to: 'videocourse#my_courses'
   get 'course_overview', to: 'videocourse#course_overview'
   get 'my_course_overview', to: 'videocourse#my_course_overview'
@@ -27,6 +27,8 @@ Rails.application.routes.draw do
   get 'user_dashboard', to: 'welcome#user_dashboard'
   get 'course_mentor', to: 'videocourse#course_mentor'
   get 'edit_course', to: 'videocourse#edit_course'
+  get 'mentor_settings', to: 'mentorlist#mentor_settings'
+  get 'help_mentor', to: 'mentorlist#help_mentor'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
