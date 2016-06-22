@@ -21,6 +21,12 @@ Rails.application.routes.draw do
   get 'upload_course', to: 'videocourse#upload_course'
   get 'blog', to: 'welcome#blog'
   get 'blog_post', to: 'welcome#blog_post'
+  get 'course_feedback', to: 'videocourse#course_feedback'
+  get 'uploaded_course', to: 'videocourse#uploaded_course'
+  get 'test3', to: 'welcome#test3'
+  get 'user_dashboard', to: 'welcome#user_dashboard'
+  get 'course_mentor', to: 'videocourse#course_mentor'
+  get 'edit_course', to: 'videocourse#edit_course'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

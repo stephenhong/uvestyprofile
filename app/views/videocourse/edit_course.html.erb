@@ -11,7 +11,7 @@
                     <div class="container">
                         <!-- BEGIN PAGE TITLE -->
                         <div class="page-title">
-                            <h1> Upload Course
+                            <h1> Edit Course
                                 <small></small>
                             </h1>
                         </div>
@@ -26,31 +26,6 @@
                         <div class="page-content-inner">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <!-- BEGIN PROFILE SIDEBAR -->
-                                    <div class="profile-sidebar">
-                                        <!-- PORTLET MAIN -->
-                                        <div class="portlet light profile-sidebar-portlet ">
-                                            <!-- END SIDEBAR USER TITLE -->
-                                            <!-- SIDEBAR MENU -->
-                                            <div class="portlet light ">
-                                                <div class="row">
-                                                    <div>
-                                                        <button class="btn grey bold uppercase btn-block"><a href="course_feedback.html">Course Feedback</a></button>
-                                                    </div>
-                                                    <div>
-                                                        <button class="btn grey-cararra font-blue bold btn-block"><a href="myupload_course.html">Uploaded Course</a></button>
-                                                    </div>
-                                                    <div>
-                                                        <button class="btn grey-cararra font-blue bold btn-block"><a href="upload_course.html">Upload Course</a></button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- END MENU -->
-                                        </div>
-                                        <!-- END PORTLET MAIN -->
-
-                                    </div>
-                                    <!-- END BEGIN PROFILE SIDEBAR -->
                                     <!-- BEGIN PROFILE CONTENT -->
                                     <div class="profile-content">
                                         <div class="row">
@@ -59,7 +34,7 @@
                                                     <div class="portlet-title tabbable-line">
                                                         <div class="caption caption-md">
                                                             <i class="icon-globe theme-font hide"></i>
-                                                            <span class="caption-subject font-blue-madison bold uppercase">Upload Course</span>
+                                                            <span class="caption-subject font-blue-madison bold uppercase">Edit Course</span>
                                                         </div>
                                                         <ul class="nav nav-tabs">
                                                             <li class="active">
@@ -191,9 +166,32 @@
                                                             <!-- END Course Syllabus TAB -->
                                                             <!-- Video Upload INFO TAB -->
                                                             <div class="tab-pane" id="tab_1_4">
-                                                                <form action="#">
-                                                                      <div class="form-group">
-
+                                                                <form action="#" role="form">
+                                                                    <div class="form-group">
+                                                                        <div class="fileinput fileinput-new" data-provides="fileinput">
+                                                                            <div class="fileinput-new thumbnail" style="width: 200px; height: 150px;">
+                                                                                <img src="http://www.placehold.it/200x150/EFEFEF/AAAAAA&amp;text=no+video" alt="" />
+                                                                            </div>
+                                                                            <div class="fileinput-preview fileinput-exists thumbnail" style="max-width: 200px; max-height: 150px;">
+                                                                            </div>
+                                                                            <div>
+                                                                                <span class="btn default btn-file">
+                                                                                    <span class="fileinput-new"> Select Video </span>
+                                                                                    <span class="fileinput-exists"> Change </span>
+                                                                                    <input type="file" name="..."> </span>
+                                                                                <a href="javascript:;" class="btn default fileinput-exists" data-dismiss="fileinput"> Remove </a>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="clearfix margin-top-10">
+                                                                            <span class="label label-danger">NOTE! </span>
+                                                                            <span>Attached video is supported in Latest Firefox, Chrome, Opera, Safari and Internet Explorer 10 only </span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="margin-top-10">
+                                                                        <a href="javascript:;" class="btn green"> Save Changes </a>
+                                                                        <a href="javascript:;" class="btn default"> Cancel </a>
+                                                                    </div>
+                                                                </form>
                                                             </div>
                                                             <!-- END Video Upload TAB -->
                                                         </div>
